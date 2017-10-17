@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dedicado.myapplication.CalculoDefinitiva"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+    <EditText
+        android:id="@+id/asig1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarAsignatura" />
+
+
+            <EditText
+                android:id="@+id/asig1_nota1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingresarNota1"
+                android:inputType="numberDecimal"/>
+
+
+    <EditText
+        android:id="@+id/asig1_nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarNota2"
+        android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/asig1_nota3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingresarNota3"
+                android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/asig1_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CalcularNota" />
+
+    <TextView
+        android:id="@+id/asig1_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"/>
+    <!--
+    segundo ASignatura
+    -->
+
+
+
+    <EditText
+        android:id="@+id/asig2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarAsignatura" />
+
+
+
+    <EditText
+        android:id="@+id/asig2_nota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarNota1"
+        android:inputType="numberDecimal"/>
+
+
+
+    <EditText
+        android:id="@+id/asig2_nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarNota2"
+        android:inputType="numberDecimal"/>
+
+
+            <EditText
+                android:id="@+id/asig2_nota3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingresarNota3"
+                android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/asig2_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CalcularNota" />
+
+    <TextView
+        android:id="@+id/asig2_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"/>
+
+
+
+
+    <EditText
+        android:id="@+id/asig3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarAsignatura"
+        />
+
+
+            <EditText
+                android:id="@+id/asig3_nota1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingresarNota1"
+                android:inputType="numberDecimal"/>
+
+
+            <EditText
+        android:id="@+id/asig3_nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingresarNota2"
+        android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/asig3_nota3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ingresarNota3"
+                android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/asig3_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CalcularNota"/>
+
+    <TextView
+        android:id="@+id/asig3_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

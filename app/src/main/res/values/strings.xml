@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Estudiante U </string>
+    <string name="ingresarActvidad">Ingresar Actvidad</string>
+    <string name="ingresarFecha">Ingresar Fecha</string>
+    <string name="ingresarHora">Ingresar Hora</string>
+    <string name="ingresarAsignatura">Ingresar Asignatura </string>
+    <string name="ingresarNota1">Ingresar Nota 1 </string>
+    <string name="ingresarNota2">Ingresar Nota 2 </string>
+    <string name="CalcularNota">Calcular Nota </string>
+    <string name="resultado">Nota Minima:  </string>
+    <string name="ingresarNota3">Ingresar Nota 3</string>
+</resources>

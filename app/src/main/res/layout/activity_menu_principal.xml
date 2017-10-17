@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dedicado.myapplication.MenuPrincipal"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"/>
+
+    <Button
+        android:id="@+id/CalendarioEstudiante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendario " />
+
+
+    <Button
+                android:id="@+id/calculoMaterias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nota Minima" />
+
+
+
+            <Button
+                android:id="@+id/calcularDefinitiva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Definitiva" />
+
+            <Button
+                android:id="@+id/grabarClases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grabar " />
+
+
+
+
+</LinearLayout>
